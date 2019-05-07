@@ -27,8 +27,11 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 # Development tool casks
-brew cask install --appdir="/Applications" atom
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
+#brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" whatsapp
+brew cask install --appdir="/Applications" slack
+brew cask install --appdir="/Applications" authy
+brew cask install --appdir="/Applications" spectacle
 # Remove outdated versions from the cellar.
 brew cleanup
